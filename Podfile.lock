@@ -1,0 +1,16 @@
+PODS:
+  - ObjectiveRocksFramework (0.9.0)
+
+DEPENDENCIES:
+  - ObjectiveRocksFramework
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ObjectiveRocksFramework
+
+SPEC CHECKSUMS:
+  ObjectiveRocksFramework: 139bc7ff295f1e65d41a2e13e1abfe7dee050088
+
+PODFILE CHECKSUM: 96406ecb65ee4ba51569f14a7495244f2c801945
+
+COCOAPODS: 1.5.3
