@@ -23,6 +23,15 @@ In this case, `ObjectiveRocks.framework` is a universal framework [built using t
 
 For now, copying over the AppTarget's `[CP] Embed Pods Frameworks` run script to the UI test target links it properly.
 
+#### App target
+
+<img width="477" alt="screen shot 2018-11-07 at 12 37 07 pm" src="https://user-images.githubusercontent.com/30269720/48151105-71f64b00-e28e-11e8-9605-bb2fdc4ec11f.png">
+
+#### UI test target
+
+<img width="509" alt="screen shot 2018-11-07 at 12 37 13 pm" src="https://user-images.githubusercontent.com/30269720/48151146-876b7500-e28e-11e8-84e7-e2d2537f6ad9.png">
+
+
 ### However
 
 You need to name the test target's run script something other than `[CP] Embed Pods Frameworks` or else running `pod install` will just delete the run script.
